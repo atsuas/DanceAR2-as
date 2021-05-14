@@ -64,3 +64,17 @@ crashlytics-build.properties
 *.png
 *.mat
 *.tga
+*.prefab
+*.plist
+*.storyboard
+*.sh
+*.mm
+*.h
+*.cpp
+*.c
+*.m
+*.assets
+*.resS
+*.xml
+*.pch
+*.a
