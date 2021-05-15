@@ -85,3 +85,6 @@ crashlytics-build.properties
 *.tif
 *.rtf
 *.psd
+*.html
+*.TTF
+*.resource
