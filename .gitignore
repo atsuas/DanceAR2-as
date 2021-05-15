@@ -78,3 +78,10 @@ crashlytics-build.properties
 *.xml
 *.pch
 *.a
+*.asset
+*.txt
+*.anim
+*.jpg
+*.tif
+*.rtf
+*.psd
