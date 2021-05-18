@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveupPlayer : MonoBehaviour
 {
-    private float speed = 5f;
+    private float speed = 0.1f;
 
     void Update()
     {

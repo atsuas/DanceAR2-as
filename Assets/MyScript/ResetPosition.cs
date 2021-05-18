@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class ResetPosition : MonoBehaviour
 {
-    // Start is called before the first frame update
+    Vector3 originalPos;
+    
     void Start()
+    {
+        originalPos = transform.localPosition;
+    }
+
+    void Update()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.CompareTag("AEROPLANEWALL"))
+        {
+            transform.localPosition = originalPos;
+        }
+        else if (other.gameObject.CompareTag("CLOUDWALL"))
+        {
+            transform.localPosition = originalPos;
+        }
         
     }
 }
